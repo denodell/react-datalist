@@ -11,7 +11,8 @@ export default class DataList extends React.Component {
                         useNative={this.props.useNative} 
                         selected={this.props.selected == index} 
                         select={this.props.select}
-                        className={this.props.optionClassName} />
+                        className={this.props.optionClassName}
+                        selectedClassName={this.props.optionSelectedClassName} />
         })
         var containerStyle = {}
         var className = 'react-datalist' + (this.props.className ? ' ' + this.props.className : '')
