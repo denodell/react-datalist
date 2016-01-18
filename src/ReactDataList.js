@@ -16,10 +16,11 @@ export default class ReactDataList extends React.Component {
     }
     render() {
         var options      = this.filterOptions(this.props.options, this.state.filter, this.useNative())
+        var containerClassName = 'react-datalist-container' + (this.props.containerClassName ? ' ' + this.props.containerClassName : '')
         var extraClasses = this.props.className? ' ' + this.props.className: '';
         var layoutstyle  = (this.props.includeLayoutStyle) ? <style>{layout}</style> : null
         return (
-            <div className="react-datalist-container">
+            <div className={containerClassName}>
                 {layoutstyle}
                 <input ref="theInput"
                         list={this.props.list}
