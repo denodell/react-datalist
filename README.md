@@ -36,6 +36,7 @@ Check out the [**DEMO**](http://www.asbjornenge.com/react-datalist/)
         includeLayoutStyle      - include internal layout styling (style tag) (default true)
 	onOptionSelected        - callback triggered when option is considered selected
 	getController           - pass a function to collect a controller object (see below)
+	containerClassName      - pass a custom CSS class name to the data list wrapper element
 	listClassName           - pass a custom CSS class name to the data list element
 	optionClassName         - pass a custom CSS class name to the data list option elements
 	optionSelectedClassName - pass a custom CSS class name to the selected data list option element
