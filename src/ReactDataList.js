@@ -37,6 +37,9 @@ export default class ReactDataList extends React.Component {
                     hide={this.state.hide}
                     filter={this.state.filter}
                     select={this.selectFilteredOption.bind(this)}
+                    className={this.props.listClassName}
+                    optionClassName={this.props.optionClassName}
+                    optionSelectedClassName={this.props.optionSelectedClassName}
                     options={options}
                     selected={this.state.selected}
                     useNative={this.useNative()}
