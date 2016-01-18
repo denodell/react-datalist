@@ -24,18 +24,21 @@ Check out the [**DEMO**](http://www.asbjornenge.com/react-datalist/)
 
 ## Props
 
-	list             * - <datalist id="list"> and <input list="list">
-	options          * - the available options
-	placeholder        - a placeholder for the input field
-	forcePoly          - always use the polyfill                     (default false)
-	blurTimeout        - timeout after blur before hinding opts      (default 200ms)
-	autoPosition       - automatically position the options list     (default true)
-	initialFilter      - set the initial input value                 (default '')
-	hideOptionsOnEsc   - hide options on esc                         (default true)
-	hideOptionsOnBlur  - hide options on input blur                  (default true)
-    includeLayoutStyle - include internal layout styling (style tag) (default true)
-	onOptionSelected   - callback triggered when option is considered selected
-	getController      - pass a function to collect a controller object (see below)
+	list                  * - <datalist id="list"> and <input list="list">
+	options               * - the available options
+	placeholder             - a placeholder for the input field
+	forcePoly               - always use the polyfill                     (default false)
+	blurTimeout             - timeout after blur before hinding opts      (default 200ms)
+	autoPosition            - automatically position the options list     (default true)
+	initialFilter           - set the initial input value                 (default '')
+	hideOptionsOnEsc        - hide options on esc                         (default true)
+	hideOptionsOnBlur       - hide options on input blur                  (default true)
+        includeLayoutStyle      - include internal layout styling (style tag) (default true)
+	onOptionSelected        - callback triggered when option is considered selected
+	getController           - pass a function to collect a controller object (see below)
+	listClassName           - pass a custom CSS class name to the data list element
+	optionClassName         - pass a custom CSS class name to the data list option elements
+	optionSelectedClassName - pass a custom CSS class name to the selected data list option element
 
 	* = required
 
